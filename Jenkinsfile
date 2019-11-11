@@ -6,7 +6,7 @@ pipeline {
         stage('Pull Git Demo') {
             steps{
                 //拉取代码
-                git 'git@github.com:rulai-qiangwei/jenkins-test.git'
+                git 'git@github.com:jenkins-pp-test/jenkins-pp-test.git'
             }
         }
         stage('Build1') { 
